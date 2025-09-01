@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 280px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.perfil-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.perfil-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.perfil-icono {
+  display: flex;
+  gap: 10px;
+}
+
+.perfil-icono span {
+  width: 18px;
+  height: 18px;
+  background: #ccc;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.chat {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.chat button {
+  background: #b497d6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.contactos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.contacto img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto-info span:first-child {
+  font-weight: bold;
+}
+
+.contacto-info span:last-child {
+  font-size: 13px;
+  color: gray;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.main h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  font-size: 14px;
+  color: #444;
+  max-width: 380px;
+}
